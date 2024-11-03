@@ -536,6 +536,7 @@ GameObject:
   - component: {fileID: 587148056}
   - component: {fileID: 587148058}
   - component: {fileID: 587148057}
+  - component: {fileID: 587148059}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -604,6 +605,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587148055}
   m_CullTransparentMesh: 1
+--- !u!114 &587148059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587148055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33676b1781f6c244a4d181871fdbf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTashkeel: 1
+  useHinduNumbers: 1
 --- !u!1 &648753146
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,6 +630,7 @@ GameObject:
   - component: {fileID: 648753147}
   - component: {fileID: 648753149}
   - component: {fileID: 648753148}
+  - component: {fileID: 648753150}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -683,6 +699,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648753146}
   m_CullTransparentMesh: 1
+--- !u!114 &648753150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648753146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33676b1781f6c244a4d181871fdbf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTashkeel: 1
+  useHinduNumbers: 1
 --- !u!1 &1143025625
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,6 +724,7 @@ GameObject:
   - component: {fileID: 1143025626}
   - component: {fileID: 1143025628}
   - component: {fileID: 1143025627}
+  - component: {fileID: 1143025629}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -762,6 +793,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143025625}
   m_CullTransparentMesh: 1
+--- !u!114 &1143025629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143025625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33676b1781f6c244a4d181871fdbf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTashkeel: 1
+  useHinduNumbers: 1
 --- !u!1 &1386838181
 GameObject:
   m_ObjectHideFlags: 0

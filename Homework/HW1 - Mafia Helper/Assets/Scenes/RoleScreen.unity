@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 129494639}
   - component: {fileID: 129494641}
   - component: {fileID: 129494640}
+  - component: {fileID: 129494642}
   m_Layer: 5
   m_Name: RoleText
   m_TagString: Untagged
@@ -198,6 +199,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129494638}
   m_CullTransparentMesh: 1
+--- !u!114 &129494642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129494638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33676b1781f6c244a4d181871fdbf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTashkeel: 1
+  useHinduNumbers: 1
 --- !u!1 &175073557
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,6 +437,7 @@ GameObject:
   - component: {fileID: 424581814}
   - component: {fileID: 424581816}
   - component: {fileID: 424581815}
+  - component: {fileID: 424581817}
   m_Layer: 5
   m_Name: TeamText
   m_TagString: Untagged
@@ -490,6 +506,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424581813}
   m_CullTransparentMesh: 1
+--- !u!114 &424581817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424581813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33676b1781f6c244a4d181871fdbf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTashkeel: 1
+  useHinduNumbers: 1
 --- !u!1 &746376561
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,6 +603,7 @@ GameObject:
   - component: {fileID: 1151214399}
   - component: {fileID: 1151214401}
   - component: {fileID: 1151214400}
+  - component: {fileID: 1151214402}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -641,6 +672,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151214398}
   m_CullTransparentMesh: 1
+--- !u!114 &1151214402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151214398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33676b1781f6c244a4d181871fdbf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTashkeel: 1
+  useHinduNumbers: 1
 --- !u!1 &1183444107
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +805,7 @@ GameObject:
   - component: {fileID: 1308255167}
   - component: {fileID: 1308255169}
   - component: {fileID: 1308255168}
+  - component: {fileID: 1308255170}
   m_Layer: 5
   m_Name: TeamScreenText
   m_TagString: Untagged
@@ -828,6 +874,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308255166}
   m_CullTransparentMesh: 1
+--- !u!114 &1308255170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308255166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33676b1781f6c244a4d181871fdbf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTashkeel: 1
+  useHinduNumbers: 1
 --- !u!1 &1612043589
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,6 +971,7 @@ GameObject:
   - component: {fileID: 2114878310}
   - component: {fileID: 2114878312}
   - component: {fileID: 2114878311}
+  - component: {fileID: 2114878313}
   m_Layer: 5
   m_Name: RoleScreenText
   m_TagString: Untagged
@@ -979,6 +1040,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114878309}
   m_CullTransparentMesh: 1
+--- !u!114 &2114878313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114878309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33676b1781f6c244a4d181871fdbf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTashkeel: 1
+  useHinduNumbers: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
