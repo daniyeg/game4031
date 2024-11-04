@@ -163,8 +163,8 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.DefaultCompany.HW1MafiaHelper
-    Standalone: com.DefaultCompany.HW1---Mafia-Helper
+    Android: com.DefaultCompany.MafiaHelper
+    Standalone: com.DefaultCompany.Mafia-Helper
   buildNumber:
     Standalone: 0
     VisionOS: 0
