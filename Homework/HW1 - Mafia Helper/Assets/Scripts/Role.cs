@@ -1,3 +1,5 @@
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Role
@@ -18,4 +20,18 @@ public class Role
             Debug.LogError($"Failed to load texture {texturePath}.");
         }
     }
+
+    public Dictionary<string, Func<Role>> RolesDictionary = new Dictionary<string, Func<Role>>()
+    {
+        ["Godfather"] = () => new Role("پدرخوانده", "مافیا", "", ""),
+        ["Mafioso"] = () => new Role("مافیای ساده", "مافیا", "", ""),
+        ["Proffesional"] = () => new Role("حرفه‌ای", "مافیا", "", ""),
+        ["Murderer"] = () => new Role("قاتل", "مافیا", "", ""),
+
+        ["Detective"] = () => new Role("کارآگاه", "شهروند", "", ""),
+        ["Doctor"] = () => new Role("دکتر", "شهروند", "", ""),
+        ["Sniper"] = () => new Role("اسنایپر", "شهروند", "", ""),
+        ["Civilian"] = () => new Role("شهروند ساده", "شهروند", "", ""),
+        ["Mayor"] = () => new Role("شهردار", "شهروند", "", "")
+    };
 }
