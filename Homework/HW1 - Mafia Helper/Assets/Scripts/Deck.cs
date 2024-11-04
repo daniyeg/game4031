@@ -1,15 +1,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Deck
+public class Deck : MonoBehaviour
 {
+    private static Deck instance;
     private List<Role> roles;
 
-    public Deck(int playerCount)
+    private void Awake()
     {
-        roles = new List<Role>();
-        InitializeDeck(playerCount);
-        Shuffle();
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void InitializeDeck(int playerCount)
@@ -51,5 +58,19 @@ public class Deck
         Role dealtRole = roles[0];
         roles.RemoveAt(0);
         return dealtRole;
+    }
+
+    public void ClearDeck()
+    {
+        if (roles != null)
+        {
+            roles.Clear();
+        }
+    }
+
+    public void ResetDeck(int playerCount)
+    {
+        ClearDeck();
+        InitializeDeck(playerCount);
     }
 }
