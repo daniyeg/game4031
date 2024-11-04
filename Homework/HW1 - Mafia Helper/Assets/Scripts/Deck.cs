@@ -6,6 +6,11 @@ public class Deck : MonoBehaviour
     private static Deck instance;
     private List<Role> roles;
 
+    public static Deck Instance
+    {
+        get { return instance; }
+    }
+
     private void Awake()
     {
         if (instance == null)
