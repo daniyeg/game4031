@@ -16,6 +16,7 @@ public class Deck : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            roles = new List<Role>();
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -24,18 +25,36 @@ public class Deck : MonoBehaviour
         }
     }
 
+    private void AddRoleToDeck(string roleName)
+    {
+        Debug.Log($"Role {roleName} Added to the deck.");
+        var role = Role.RolesDictionary[roleName]();
+        roles.Add(role);
+    }
+
     private void InitializeDeck(int playerCount)
     {
         switch (playerCount)
         {
-            case 8:
-                break;
-
-            case 10:
-                break;
-
-            case 12:
             default:
+            case 12:
+                AddRoleToDeck("Civilian");
+                AddRoleToDeck("Murderer");
+                goto case 10;
+            case 10:
+                AddRoleToDeck("Civilian");
+                AddRoleToDeck("Mayor");
+                goto case 8;
+            case 8:
+                AddRoleToDeck("Godfather");
+                AddRoleToDeck("Mafioso");
+                AddRoleToDeck("Proffesional");
+
+                AddRoleToDeck("Detective");
+                AddRoleToDeck("Doctor");
+                AddRoleToDeck("Sniper");
+                AddRoleToDeck("Civilian");
+                AddRoleToDeck("Civilian");
                 break;
         }
     }

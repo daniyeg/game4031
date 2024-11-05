@@ -21,7 +21,7 @@ public class Role
         }
     }
 
-    public Dictionary<string, Func<Role>> RolesDictionary = new Dictionary<string, Func<Role>>()
+    public static Dictionary<string, Func<Role>> RolesDictionary = new Dictionary<string, Func<Role>>()
     {
         ["Godfather"] = () => new Role("پدرخوانده", "مافیا", "", ""),
         ["Mafioso"] = () => new Role("مافیای ساده", "مافیا", "", ""),
