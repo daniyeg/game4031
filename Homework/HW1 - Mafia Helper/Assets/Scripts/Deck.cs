@@ -4,11 +4,16 @@ using UnityEngine;
 public class Deck : MonoBehaviour
 {
     private static Deck instance;
-    private List<Role> roles;
+    private static List<Role> roles = new List<Role>();
 
     public static Deck Instance
     {
         get { return instance; }
+    }
+
+    public static int RolesRemaining
+    {
+        get { return roles.Count; }
     }
 
     private void Awake()
@@ -16,7 +21,6 @@ public class Deck : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            roles = new List<Role>();
             DontDestroyOnLoad(gameObject);
         }
         else

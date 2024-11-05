@@ -10,12 +10,22 @@ public class ButtonController : MonoBehaviour
 
     public void OnWaitScreenPress()
     {
-        SceneManager.LoadScene("RoleScreen");
+        if (Deck.RolesRemaining > 0)
+        {
+            SceneManager.LoadScene("RoleScreen");
+            return;
+        }
+        SceneManager.LoadScene("EndScreen");
     }
 
     public void OnRoleScreenPress()
     {
         SceneManager.LoadScene("WaitScreen");
+    }
+
+    public void OnEndScreenPress()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void OnEightPlayerPress()
