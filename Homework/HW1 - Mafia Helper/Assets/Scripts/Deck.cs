@@ -100,5 +100,6 @@ public class Deck : MonoBehaviour
     {
         ClearDeck();
         InitializeDeck(playerCount);
+        Shuffle();
     }
 }
